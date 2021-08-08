@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>상품 이미지 구현</title>
+    <link rel="stylesheet" href="style/style_common.css">
+
+    <style>
+        div#goods {
+            width: 240px;
+            height: 200px;
+            border: 1px dotted #000;
+            border-radius: 10px;
+            margin: 0 auto;
+
+            background-image: url(images/bg1.png);
+            -webkit-background-size: 190px 200px;
+            /*background-size: ;*/
+            background-repeat: no-repeat;
+        }
+
+        hgroup {
+            margin-top: 122px;
+            /*border: 1px solid #000;*/
+            background-color: rgba(255, 255, 255, 0.4);
+
+            /* margin-top 대신 사용해도 무관
+            position: relative;
+            top: 122px;
+            */
+        }
+
+        hgroup>* {
+            text-align: right;
+            padding-right: 10px;
+        }
+
+        hgroup>h2 {
+            color: #5a1828;
+            margin-bottom: 14px;
+        }
+
+        hgroup>h4 {
+            color: #355ba7;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+
+        <div id="goods">
+            <hgroup>
+                <h2>꽃다발</h2>
+                <h4>말괄량이</h4>
+            </hgroup>
+        </div>
+        <!-- div#goods -->
+
+    </div>
+    <!-- div#wrap -->
+</body>
+</html>

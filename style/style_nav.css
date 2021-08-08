@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+ /* GNB 메뉴 */
+    nav#gnb {
+        border: 1px solid #000;
+    }
+
+    #gnb a {
+        width: 150px;
+        height: 48px;
+        font-size: 16px;
+        text-align: center;
+        line-height: 48px;
+        padding: 0 24px;
+        border: 1px solid #08f;
+        display: inline-block;
+    }
+
+    #gnb a:hover {
+        color: rgba(34, 34, 34, 0.6);
+        font-weight: bold;
+    }
+
+    #gnb ul#subMenu {
+        display: none;
+    }
+    /* GNB 메뉴 */
